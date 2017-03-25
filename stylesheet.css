@@ -1,0 +1,14 @@
+.text {
+    display: block;
+    z-index: 10;
+    position: absolute;
+    text-align: center;
+    font-size: 28px;
+    top: 100px;
+    background-color: white;
+    width: 640px;
+}
+#video {
+    z-index: 9;
+    position: absolute;
+}
