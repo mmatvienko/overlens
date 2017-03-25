@@ -1,6 +1,14 @@
-{"vid1":{
-	"sTime"	:	0,
-	"eTime"	:	83,
-	"name"	:	"Patagonia",
-	"img"	:	"test.jpg"
-}}
+[
+	{
+		"sTime"	:	0,
+		"eTime"	:	15,
+		"name"	:	"Patagonia Jacket",
+		"img"	:	"jacket.jpg"
+	},
+	{
+		"sTime"	:	20,
+		"eTime"	:	40,
+		"name"	:	"Patagonia Hoodie",
+		"img"	:	"hoodie.jpg"
+	}
+]

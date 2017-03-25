@@ -1,9 +1,17 @@
 $(document).ready(function(){
     var video = $('#video')[0];
-    var obj;
-    var json = '{"sTime":0,"eTime":60,'+
-    			'"name":"Patagonia","img":"jacket.jpg"}',
-    			 obj = JSON.parse(json);
+    
+    $.ajax({ 
+        type: 'GET',
+        contentType: "application/json; charset=utf-8",
+        url: 'data.json',
+        dataType: "json",
+
+        success: function (data) {
+        	alert(data[0].name);
+        }
+    });
+
 	video.addEventListener('seeking', function(){
 		//$('#overlay').css("visibility", "hidden");
 
