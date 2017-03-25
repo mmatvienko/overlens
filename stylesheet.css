@@ -1,12 +1,16 @@
-.text {
+.overlay {
     display: block;
     z-index: 10;
     position: absolute;
     text-align: center;
     font-size: 28px;
     top: 100px;
-    background-color: white;
+    color: white;
+    font-family: verdana, sans-serif;
+    background-color:rgba(0, 0, 0, 0.3);
     width: 640px;
+    border-radius: 10px;
+
 }
 #video {
     z-index: 9;
