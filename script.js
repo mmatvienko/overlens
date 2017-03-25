@@ -1,6 +1,16 @@
 $(document).ready(function(){
     var video = $('#video')[0];
-	var obj = JSON.parse(text);
+    var jsonFile = "data.json";
+  
+    var scene = {
+	  "x": 0,
+	  "y": 0,
+	  "w": 11000,
+	  "h": 3500
+	};
+		var obj = vid1.eTime;
+	alert(scene.x);
+
     video.addEventListener('playing', function(){
            $('.overlay').fadeOut();
     })
