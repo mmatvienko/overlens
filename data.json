@@ -1,14 +1,26 @@
 [
 	{
-		"sTime"	:	0,
-		"eTime"	:	15,
-		"name"	:	"Patagonia Jacket",
+		"sTime"	:	19,
+		"eTime"	:	26,
+		"name"	:	"Red Patagonia Jacket",
 		"img"	:	"jacket.jpg"
 	},
 	{
-		"sTime"	:	20,
+		"sTime"	:	37,
 		"eTime"	:	40,
-		"name"	:	"Patagonia Hoodie",
+		"name"	:	"Blue Patagonia Jacket",
+		"img"	:	"hoodie.jpg"
+	},
+	{
+		"sTime"	:	69,
+		"eTime"	:	71,
+		"name"	:	"Orange Patagonia Jacket",
+		"img"	:	"hoodie.jpg"
+	},
+	{
+		"sTime"	:	107,
+		"eTime"	:	111,
+		"name"	:	"Blue Beanie",
 		"img"	:	"hoodie.jpg"
 	}
 ]
