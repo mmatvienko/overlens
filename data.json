@@ -3,24 +3,28 @@
 		"sTime"	:	19,
 		"eTime"	:	26,
 		"name"	:	"Red Patagonia Jacket",
-		"img"	:	"red.jpg"
+		"img"	:	"red.jpg",
+		"link"	:	"http://www.patagonia.com/product/mens-windsweep-rain-jacket/27065.html?dwvar_27065_color=CSRD"
 	},
 	{
 		"sTime"	:	37,
 		"eTime"	:	40,
 		"name"	:	"Blue Patagonia Jacket",
-		"img"	:	"blue.jpg"
+		"img"	:	"blue.jpg",
+		"link"	:	"http://www.patagonia.com/product/mens-triolet-jacket-for-alpine-climbing/83401.html?dwvar_83401_color=NAFG"
 	},
 	{
 		"sTime"	:	69,
 		"eTime"	:	71,
 		"name"	:	"Orange Patagonia Jacket",
-		"img"	:	"orange.jpg"
+		"img"	:	"orange.jpg",
+		"link"	:	"http://www.patagonia.com/product/mens-triolet-jacket-for-alpine-climbing/83401.html?dwvar_83401_color=CMPO"
 	},
 	{
 		"sTime"	:	107,
 		"eTime"	:	111,
 		"name"	:	"Blue Beanie",
-		"img"	:	"beanie.jpg"
+		"img"	:	"beanie.jpg",
+		"link"	:	"http://www.patagonia.com/product/fishermans-rolled-beanie/29105.html?dwvar_29105_color=NVYB"
 	}
 ]
