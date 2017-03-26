@@ -1,12 +1,11 @@
 $(document).ready(function(){
-
-      $("html").click($.ajax({
-       url: 'getaddr.php',
-       success: function(data) {
-         alert(data);
-       }
-   }));
-
+    var addr;
+    $.ajax({
+	url: './getaddr.php',
+	success: function(data) {
+	    addr = data;
+	}
+    });
     var video = $('#video')[0];
     var obj;
     $.ajax({ 
@@ -17,7 +16,6 @@ $(document).ready(function(){
 
         success: function (data) {
     		obj = data;
-        	console.log("successful read");
         }
     });
 
