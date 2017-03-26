@@ -1,44 +1,87 @@
 $(document).ready(function(){
     var addr;
+    var userObj;
+    var objArr;
     $.ajax({
 	url: './getaddr.php',
 	success: function(data) {
 	    addr = data;
+	    //initialize userObj
+	    userObj = new user(addr,0,0,0);
+	    
+	    //initialie array of user obj
+	    
+	    $.ajax({ 
+		type: 'GET',
+		contentType: "application/json; charset=utf-8",
+		url: 'tracking2.json',
+		dataType: "json",
+
+		success: function (data) {
+    		    objArr = data;
+		}
+	    });
+
 	}
     });
-    function user(ip, paused, bought, shared, displayed, added) {
-	this.ip = ip;
+    function user(ip, paused, bought, secondary) {
 	this.paused = paused;
 	this.bought = bought;
-	this.shared = shared;
-	this.displayed = displayed;
-	this.added = added;
+ 	this.ip = ip;
+	this.secondary = secondary;
     }
-    var userObj = new user(addr,25,58);
     
-    $.ajax
-    ({
-	type: "GET",
-	dataType : 'json',
-	async: false,
-	url: './json2.php',
-	data: { data: JSON.stringify(arrayList) },
-	success: function () {alert("Thanks!"); },
-	failure: function() {alert("Error!");}
-    });
     
     var video = $('#video')[0];
     var obj;
     $.ajax({ 
         type: 'GET',
         contentType: "application/json; charset=utf-8",
-        url: 'data.json',
+        url: './data.json',
         dataType: "json",
 
         success: function (data) {
     		obj = data;
         }
     });
+
+    video.addEventListener("pause", function(){
+	userObj.paused = userObj.paused + 1;
+	console.log(userObj);
+    });
+
+    var bbutton = $('#bbutton')[0];
+    bbutton.addEventListener("click",function(){
+	userObj.bought = userObj.bought + 1;
+    });
+    
+    var obutton = $('#obutton')[0];
+
+    obutton.addEventListener("click",function(){
+	userObj.secondary = userObj.secondary + 1;
+    });
+
+   
+    window.onbeforeunload = function (e) {
+	e = e || window.event;
+	objArr.push(userObj);
+	//push data
+	$.ajax
+	({
+	    type: "GET",
+	    dataType : 'json',
+	    async: false,
+	    url: './json2.php',
+	    data: { data: JSON.stringify(objArr) },
+	    success: function () {alert("Thanks!"); },
+	    failure: function() {alert("Error!");}
+	});
+	//end push data
+    	
+//	return "Sure?";
+    }
+
+
 
     video.ontimeupdate = function() {
       var found = false;
