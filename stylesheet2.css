@@ -6,6 +6,7 @@
     font-size: 28px;
     color: white;
     font-family: verdana, sans-serif;
+    visibility: hidden;
     background-color:rgba(0, 0, 0, 0);
     width: 420px;
     border-radius: 0px;

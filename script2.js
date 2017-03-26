@@ -25,9 +25,11 @@ $(document).ready(function(){
        if(found){
           document.getElementById('name').innerHTML = objFound.name;
           document.getElementById('img').src = objFound.img;
+	  $('#overlay').css("visibility", "visible");
        }else{
           document.getElementById('name').innerHTML = "";
           document.getElementById('img').src = "";
+	  $('#overlay').css("visibility", "hidden");
 
        }
     };
