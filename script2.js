@@ -25,11 +25,12 @@ $(document).ready(function(){
        if(found){
           document.getElementById('name').innerHTML = objFound.name;
           document.getElementById('img').src = objFound.img;
-	  $('#overlay').css("visibility", "visible");
+		  document.getElementById('purchase').href = objFound.link;
+		  $('#overlay').css("visibility", "visible");
        }else{
           document.getElementById('name').innerHTML = "";
           document.getElementById('img').src = "";
-	  $('#overlay').css("visibility", "hidden");
+	      $('#overlay').css("visibility", "hidden");
 
        }
     };
