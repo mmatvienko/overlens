@@ -12,11 +12,6 @@ $(document).ready(function(){
         	console.log("successful read");
         }
     });
-	
-	window.onbeforeunload = function (e) {
-		e = e || window.event;
-		return 'Sure?';
-	};
 
     video.addEventListener('playing', function(){
         $('#overlay').fadeOut();
