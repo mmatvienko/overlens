@@ -30,7 +30,7 @@ $(document).ready(function(){
 	 	 	}
            if(found){
            		$('#overlay').css("visibility", "visible");
-				$('#overlay').fadeIn();
+				      $('#overlay').fadeIn();
            		document.getElementById('name').innerHTML = objFound.name;
            		document.getElementById('img').src = objFound.img;
            		document.getElementById('purchase').href = objFound.link;
