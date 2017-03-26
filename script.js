@@ -36,14 +36,16 @@ $(document).ready(function(){
            if(found){
            		$('#overlay').css("visibility", "visible");
 				$('#overlay').fadeIn();
-           		document.getElementById('overlay').innerHTML 
+           		/*document.getElementById('overlay').innerHTML 
            		= "<div class='outer'>"+
            		"<div id='left'><div class = 'inner'>"+objFound.name + "</div>"+
            		"<div class = 'inner'><img class='inner' src='"+
            		objFound.img+
            		"' width='20%'/></div></div>"+
            		"<div id='right'>Hello</div>"
-           		+"</div>";
+           		+"</div>";*/
+           		document.getElementById('name').innerHTML = objFound.name;
+           		document.getElementById('img').src = objFound.img;
            }
        }
     });
