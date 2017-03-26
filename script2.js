@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
       $("html").click($.ajax({
-       url: 'getAddr.php',
+       url: 'getaddr.php',
        success: function(data) {
          alert(data);
        }
