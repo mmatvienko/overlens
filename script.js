@@ -1,4 +1,6 @@
 $(document).ready(function(){
+
+
     var video = $('#video')[0];
     var obj;
     $.ajax({ 
@@ -12,6 +14,11 @@ $(document).ready(function(){
         	console.log("successful read");
         }
     });
+	
+	window.onbeforeunload = function (e) {
+		e = e || window.event;
+		return 'Sure?';
+	};
 
     video.addEventListener('playing', function(){
         $('#overlay').fadeOut();
