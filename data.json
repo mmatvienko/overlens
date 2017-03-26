@@ -2,28 +2,28 @@
 	{
 		"sTime"	:	19,
 		"eTime"	:	26,
-		"name"	:	"Red Patagonia Jacket",
+		"name"	:	"Patagonia Windsweep Jacket",
 		"img"	:	"red.jpg",
 		"link"	:	"http://www.patagonia.com/product/mens-windsweep-rain-jacket/27065.html?dwvar_27065_color=CSRD"
 	},
 	{
-		"sTime"	:	32,
+		"sTime"	:	33,
 		"eTime"	:	36,
-		"name"	:	"Red Patagonia Jacket",
+		"name"	:	"Patagonia Windsweep Jacket",
 		"img"	:	"red.jpg",
 		"link"	:	"http://www.patagonia.com/product/mens-windsweep-rain-jacket/27065.html?dwvar_27065_color=CSRD"
 	},
 	{
 		"sTime"	:	37,
 		"eTime"	:	40,
-		"name"	:	"Blue Patagonia Jacket",
+		"name"	:	"Patagonia Triolet Jacket",
 		"img"	:	"blue.jpg",
 		"link"	:	"http://www.patagonia.com/product/mens-triolet-jacket-for-alpine-climbing/83401.html?dwvar_83401_color=NAFG"
 	},
 	{
 		"sTime"	:	41,
 		"eTime"	:	43,
-		"name"	:	"Blue Patagonia Beanie",
+		"name"	:	"Patagonia Rolled Beanie",
 		"img"	:	"beanie.jpg",
 		"link"	:	"http://www.patagonia.com/product/fishermans-rolled-beanie/29105.html?dwvar_29105_color=NVYB"
 	},
@@ -35,17 +35,66 @@
 		"link"	:	"http://www.patagonia.com/on/demandware.store/Sites-patagonia-us-Site/en_US/Product-Variation?pid=47911&dwvar_47911_color=CFTP"
 	},
 	{
+		"sTime"	:	58,
+		"eTime"	:	63,
+		"name"	:	"Patagonia Long-Sleeved Henley",
+		"img"	:	"shirt.jpg",
+		"link"	:	"http://www.patagonia.com/product/mens-long-sleeved-daily-henley/52260.html"
+	},
+	{
 		"sTime"	:	69,
 		"eTime"	:	71,
-		"name"	:	"Orange Patagonia Jacket",
+		"name"	:	"Patagonia Triolet Jacket",
 		"img"	:	"orange.jpg",
 		"link"	:	"http://www.patagonia.com/product/mens-triolet-jacket-for-alpine-climbing/83401.html?dwvar_83401_color=CMPO"
 	},
 	{
+		"sTime"	:	84,
+		"eTime"	:	85,
+		"name"	:	"Patagonia Torrentshell Jacket",
+		"img"	:	"green.jpg",
+		"link"	:	"http://www.patagonia.com/product/mens-torrentshell-rain-jacket/83802.html?dwvar_83802_color=BUFG"
+	},
+	{
+		"sTime"	:	86,
+		"eTime"	:	87,
+		"name"	:	"Patagonia Torrentshell Jacket",
+		"img"	:	"blue2.jpg",
+		"link"	:	"http://www.patagonia.com/product/mens-torrentshell-rain-jacket/83802.html?dwvar_83802_color=ANDB"
+	},
+	{
+		"sTime"	:	88,
+		"eTime"	:	89,
+		"name"	:	"Patagonia Windsweep Jacket",
+		"img"	:	"red.jpg",
+		"link"	:	"http://www.patagonia.com/product/mens-windsweep-rain-jacket/27065.html?dwvar_27065_color=CSRD"
+	},
+	{
+		"sTime"	:	100,
+		"eTime"	:	102,
+		"name"	:	"Patagonia Full Suit",
+		"img"	:	"bodysuit.jpg",
+		"link"	:	"http://www.patagonia.com/product/mens-r2-yulex-front-zip-full-wetsuit/88438.html"
+	},
+	{
 		"sTime"	:	107,
 		"eTime"	:	111,
-		"name"	:	"Blue Patagonia Beanie",
+		"name"	:	"Patagonia Rolled Beanie",
 		"img"	:	"beanie.jpg",
 		"link"	:	"http://www.patagonia.com/product/fishermans-rolled-beanie/29105.html?dwvar_29105_color=NVYB"
+	},
+	{
+		"sTime"	:	118,
+		"eTime"	:	120,
+		"name"	:	"Patagonia Windsweep Jacket",
+		"img"	:	"red.jpg",
+		"link"	:	"http://www.patagonia.com/product/mens-windsweep-rain-jacket/27065.html?dwvar_27065_color=CSRD"
+	},
+	{
+		"sTime"	:	137,
+		"eTime"	:	141,
+		"name"	:	"Patagonia Windsweep Jacket",
+		"img"	:	"red.jpg",
+		"link"	:	"http://www.patagonia.com/product/mens-windsweep-rain-jacket/27065.html?dwvar_27065_color=CSRD"
 	}
 ]
