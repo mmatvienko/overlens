@@ -11,7 +11,7 @@ a:link {
 }
 
 #obutton:hover{
-    background-color: rgb(0,0,255);
+    background-color: rgb(0,112,192);
 }
 
 #overlay {
@@ -64,7 +64,7 @@ a:link {
     padding: 10px;
     padding-top: 15px;
     padding-bottom: 15px;
-    background: rgb(0,112,192);
+    background: rgb(0,133,229);
     border-radius: 10px;    
     margin-top: 15px;
     margin-bottom: 15px;
@@ -88,4 +88,18 @@ td{
 table{
     width: 100%;
     padding: 0px;
+}
+video::-webkit-media-controls-fullscreen-button{
+    display: none;
+}
+video::-internal-media-controls-download-button {
+    display:none;
+}
+
+video::-webkit-media-controls-enclosure {
+    overflow:hidden;
+}
+
+video::-webkit-media-controls-panel {
+    width: calc(100% + 30px); /* Adjust as needed */
 }
