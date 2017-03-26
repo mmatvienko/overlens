@@ -35,7 +35,9 @@ a:link {
     z-index: 9;
     position: absolute;
 }
-
+video::-webkit-media-controls-fullscreen-button{
+    display: none;
+}
 #left{
     padding:10px;
 }

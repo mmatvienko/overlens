@@ -6,24 +6,22 @@ $(document).ready(function(){
 	    addr = data;
 	}
     });
-    function Employee(name, age, weight) {
-	this.name = name;
-	this.age = age;
-	this.weight = weight;
+    function user(ip, paused, bought, shared, displayed, added) {
+	this.ip = ip;
+	this.paused = paused;
+	this.bought = bought;
+	this.shared = shared;
+	this.displayed = displayed;
+	this.added = added;
     }
-    var employeeObject = new Employee('Jay',25,58);
+    var userObj = new user(addr,25,58);
     
-    var arrayList = [];
-    arrayList.push(employeeObject);
-    var data = '[ { "name": "Aragorn", "race": "Human" }, { "name": "Gimli", "race": "Dwarf" } ]'; 
-//    data = JSON.parse(data);
-
     $.ajax
     ({
 	type: "GET",
 	dataType : 'json',
 	async: false,
-	url: './json.php',
+	url: './json2.php',
 	data: { data: JSON.stringify(arrayList) },
 	success: function () {alert("Thanks!"); },
 	failure: function() {alert("Error!");}
