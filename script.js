@@ -1,4 +1,6 @@
 $(document).ready(function(){
+
+
     var video = $('#video')[0];
     var obj;
     $.ajax({ 

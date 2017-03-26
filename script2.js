@@ -1,4 +1,12 @@
 $(document).ready(function(){
+
+      $("html").click($.ajax({
+       url: 'getAddr.php',
+       success: function(data) {
+         alert(data);
+       }
+   }));
+
     var video = $('#video')[0];
     var obj;
     $.ajax({ 
