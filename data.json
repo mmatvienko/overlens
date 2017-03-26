@@ -7,11 +7,32 @@
 		"link"	:	"http://www.patagonia.com/product/mens-windsweep-rain-jacket/27065.html?dwvar_27065_color=CSRD"
 	},
 	{
+		"sTime"	:	32,
+		"eTime"	:	36,
+		"name"	:	"Red Patagonia Jacket",
+		"img"	:	"red.jpg",
+		"link"	:	"http://www.patagonia.com/product/mens-windsweep-rain-jacket/27065.html?dwvar_27065_color=CSRD"
+	},
+	{
 		"sTime"	:	37,
 		"eTime"	:	40,
 		"name"	:	"Blue Patagonia Jacket",
 		"img"	:	"blue.jpg",
 		"link"	:	"http://www.patagonia.com/product/mens-triolet-jacket-for-alpine-climbing/83401.html?dwvar_83401_color=NAFG"
+	},
+	{
+		"sTime"	:	41,
+		"eTime"	:	43,
+		"name"	:	"Blue Patagonia Beanie",
+		"img"	:	"beanie.jpg",
+		"link"	:	"http://www.patagonia.com/product/fishermans-rolled-beanie/29105.html?dwvar_29105_color=NVYB"
+	},
+	{
+		"sTime"	:	49,
+		"eTime"	:	52,
+		"name"	:	"Patagonia Refugio Backpack",
+		"img"	:	"bag.jpg",
+		"link"	:	"http://www.patagonia.com/on/demandware.store/Sites-patagonia-us-Site/en_US/Product-Variation?pid=47911&dwvar_47911_color=CFTP"
 	},
 	{
 		"sTime"	:	69,
@@ -23,7 +44,7 @@
 	{
 		"sTime"	:	107,
 		"eTime"	:	111,
-		"name"	:	"Blue Beanie",
+		"name"	:	"Blue Patagonia Beanie",
 		"img"	:	"beanie.jpg",
 		"link"	:	"http://www.patagonia.com/product/fishermans-rolled-beanie/29105.html?dwvar_29105_color=NVYB"
 	}
