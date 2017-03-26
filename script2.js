@@ -6,6 +6,29 @@ $(document).ready(function(){
 	    addr = data;
 	}
     });
+    function Employee(name, age, weight) {
+	this.name = name;
+	this.age = age;
+	this.weight = weight;
+    }
+    var employeeObject = new Employee('Jay',25,58);
+    
+    var arrayList = [];
+    arrayList.push(employeeObject);
+    var data = '[ { "name": "Aragorn", "race": "Human" }, { "name": "Gimli", "race": "Dwarf" } ]'; 
+//    data = JSON.parse(data);
+
+    $.ajax
+    ({
+	type: "GET",
+	dataType : 'json',
+	async: false,
+	url: './json.php',
+	data: { data: JSON.stringify(arrayList) },
+	success: function () {alert("Thanks!"); },
+	failure: function() {alert("Error!");}
+    });
+    
     var video = $('#video')[0];
     var obj;
     $.ajax({ 
